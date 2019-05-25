@@ -15,7 +15,7 @@ public class Main_Screen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main__screen);
 
-        //Main_Screen_0ne
+        //Main_Screen
 
         play.setOnClickListener(new View.OnClickListener() {
             @Override
