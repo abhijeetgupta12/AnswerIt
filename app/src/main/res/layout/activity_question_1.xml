@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photobgrnd"
+    tools:context=".Question_1"
+  >
+
+    <TextView
+        android:id="@+id/questioNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="11dp"
+        android:text="1/10"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="56dp"
+            android:text="Question"
+            android:fontFamily="sans-serif-condensed"
+
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignStart="@+id/question"
+            android:layout_centerVertical="true">
+
+            <RadioButton
+                android:id="@+id/One"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option1"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <RadioButton
+                android:id="@+id/Two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option2"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <RadioButton
+                android:id="@+id/Three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option3"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+            <RadioButton
+                android:id="@+id/Four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Option4"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/alertID"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="47dp"
+        android:background="@drawable/button_shape"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

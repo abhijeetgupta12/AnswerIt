@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnswerIt</string>
+    <string name="title">Exit</string>
+    <string name="message">Quit Game</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="Two">2/10</string>
+    <string name="_9_10">9/10</string>
+    <string name="androidabhi">©AndroidAbhi</string>
+</resources>

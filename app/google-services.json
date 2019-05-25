@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "757354730223",
+    "firebase_url": "https://answerit-2b273.firebaseio.com",
+    "project_id": "answerit-2b273",
+    "storage_bucket": "answerit-2b273.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757354730223:android:d249c5dfdbfd1444",
+        "android_client_info": {
+          "package_name": "com.example.sush.answerit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757354730223-4n7r4li2ua68s36i0c3fe6lkubjrj75f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sush.answerit",
+            "certificate_hash": "41f51bcfb065d3b5615d86a9e5f06fba425c6d37"
+          }
+        },
+        {
+          "client_id": "757354730223-sqsg0nev46c3r823245ribdti0qk27ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4jJ4F4ZYsZpAuQhI4aF8fD4OSu00HjF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757354730223-sqsg0nev46c3r823245ribdti0qk27ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
