@@ -136,8 +136,7 @@ public class Question_2 extends AppCompatActivity implements RadioGroup.OnChecke
         alert.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                Intent intent = new Intent(Question_2.this,GoForIt.class);
-                startActivity(intent);
+
                 GoForIt.Question.clear();
                 GoForIt.Answer.clear();
                 GoForIt.Option1.clear();

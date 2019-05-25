@@ -337,9 +337,8 @@ public class ShowAnswer extends AppCompatActivity {
         GoForIt.Option4.clear();
         GoForIt.YourAnswers.clear();
 
-        Intent intent = new Intent(ShowAnswer.this,GoForIt.class);
-        startActivity(intent);
-        ShowAnswer.this.finish();
+
+        finish();
 
     }
 }

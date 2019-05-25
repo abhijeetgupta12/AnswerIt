@@ -6,6 +6,7 @@ import android.net.NetworkInfo;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -135,18 +136,7 @@ public class GoForIt extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-        Question.clear();
-        Answer.clear();
-        Option1.clear();
-        Option2.clear();
-        Option3.clear();
-        Option4.clear();
 
-        finish();
-        super.onStop();
-    }
 
     public class updateFromDatabase implements Runnable
     {
@@ -191,6 +181,8 @@ public class GoForIt extends AppCompatActivity {
                                     Toast.makeText(GoForIt.this,"Welcome!",Toast.LENGTH_SHORT).show();
 
                                 }
+
+
                             }
                         }
                     }
@@ -204,6 +196,8 @@ public class GoForIt extends AppCompatActivity {
 
 
     }
+
+
 
 
 }
