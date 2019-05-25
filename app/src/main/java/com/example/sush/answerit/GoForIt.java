@@ -61,10 +61,11 @@ public class GoForIt extends AppCompatActivity {
 
 
         updateFromDatabase obj = new updateFromDatabase();
+        progressBar.setVisibility(View.VISIBLE);
+
         Thread t1 = new Thread(obj);
         if(haveNetwork())
         {
-            progressBar.setVisibility(View.VISIBLE);
             t1.start();
         }
         else
@@ -135,7 +136,7 @@ public class GoForIt extends AppCompatActivity {
     }
 
     @Override
-    public void onBackPressed() {
+    protected void onStop() {
         Question.clear();
         Answer.clear();
         Option1.clear();
@@ -144,9 +145,8 @@ public class GoForIt extends AppCompatActivity {
         Option4.clear();
 
         finish();
-        //super.onBackPressed();
+        super.onStop();
     }
-
 
     public class updateFromDatabase implements Runnable
     {
