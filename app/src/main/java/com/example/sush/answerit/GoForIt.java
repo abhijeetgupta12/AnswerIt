@@ -136,6 +136,13 @@ public class GoForIt extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        Question.clear();
+        Answer.clear();
+        Option1.clear();
+        Option2.clear();
+        Option3.clear();
+        Option4.clear();
+
         finish();
         //super.onBackPressed();
     }
@@ -181,7 +188,7 @@ public class GoForIt extends AppCompatActivity {
                                 {
 
                                     progressBar.setVisibility(View.GONE);
-                                    //Toast.makeText(GoForIt.this,"Welcome!",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(GoForIt.this,"Welcome!",Toast.LENGTH_SHORT).show();
 
                                 }
                             }
@@ -199,7 +206,7 @@ public class GoForIt extends AppCompatActivity {
     }
 
 
-
-
 }
+
+
 
